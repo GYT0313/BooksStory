@@ -1,0 +1,71 @@
+.middle {
+	margin: 0 auto;
+	margin-top: 60px;
+	width: 1170px;
+	height: 262px;
+}
+
+.info input {
+	margin: 0;
+	padding: 0;
+	border: none; /*È¥µô±ß¿ò*/
+	border-radius: 6px; /*ÉèÖÃ±ß¿òÎªÔ²½Ç*/
+	padding: 0 10px;
+}
+
+.inputinfo {
+	width: 280px;
+	height: 34px;
+	border: 0px;
+	background-color: rgb(238, 232, 170);
+}
+
+h4 {
+	font-size: 24px;
+}
+
+.login_btn {
+	width: 58.16px;
+	height: 34px;
+	cursor: pointer;
+	background: rgb(0, 0, 255);
+	border-color: rgb(0, 0, 255);
+	opacity: .8;
+	color: #fff;
+	border-radius: 6px; /*ÉèÖÃ±ß¿òÎªÔ²½Ç*/
+}
+/* 	  .login_btn:hover {
+	    background:rgb(205,133,63);
+	    border: none;
+	 } */
+.login_title, .checkbox, .help {
+	margin-left: 465px;
+}
+
+a {
+	text-decoration: none
+}
+
+a:hover {
+	color: rgb(240, 119, 91);
+}
+
+.login_btn {
+	width: 90px;
+	margin-left: 465px;
+	color: rgb(255, 255, 255);
+	border: none;
+	font-size: 18px;
+}
+
+.login_btn a {
+	color: rgb(255, 255, 255);
+}
+
+.login_btn:hover {
+	background-color: rgb(215, 157, 101);
+}
+
+.top-logo a:hover {
+	color: rgb(255, 255, 255);
+}

@@ -1,0 +1,22 @@
+body {
+	position: relative;
+	margin: 0px;
+}
+/* ****************************************************** */
+/* 三个大体 top middle bottom */
+.top {
+	height: 60px;
+	background: rgb(59, 89, 152);
+	color: rgb(255, 255, 255);
+	font-family: 微软雅黑;
+	position: relative;
+	font-size: 18px;
+	margin-top: 0px;
+}
+
+.bottom {
+	height: 140px;
+	background: rgb(242, 242, 242);
+	position: relative;
+	top: 200px;
+}

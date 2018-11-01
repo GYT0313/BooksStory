@@ -1,0 +1,414 @@
+/* recommend */
+.container {
+	position: relative;
+	top: 30px;
+	height: 6300px;
+}
+
+.container a {
+	text-decoration: none;
+	color: rgb(116, 89, 165);
+}
+/* 		.container div {
+			border: 1px solid;
+		} */
+
+/* 左部分 */
+.container-left {
+	width: 800px;
+	height: 6000px;
+	position: relative;
+	left: 180px;
+	padding: 0 5px;
+}
+
+/* 头部 */
+.page-article-head {
+	position: relative;
+	padding: 0 5px;
+}
+
+.article-title h2 {
+	font-weight: normal;
+}
+/* 作者 时间 阅读 */
+.article-author {
+	font-size: 14px;
+	color: rgb(191, 197, 214);
+}
+/* 正文 */
+.article {
+	position: relative;
+	top: 10px;
+}
+/* 介绍 */
+.article-des {
+	padding: 5px 20px;
+	border: 1px dashed rgb(0, 0, 255);
+}
+/* 书籍 */
+.article-books {
+	position: relative;
+	top: 10px;
+}
+/* 单本书 */
+.article-book {
+	position: relative;
+	margin: 20px 0px;
+	font-size: 15px;
+}
+
+.article-book p {
+	line-height: 23px;
+}
+
+.article-book-head {
+	padding-top: 20px;
+	border-bottom: 1px solid rgb(65, 105, 225);
+}
+
+.article-book-head h2 a:hover {
+	color: rgb(238, 119, 17);
+}
+/* 书评分 */
+.article-book .book-des {
+	font-size: 14px;
+}
+
+.article-book .book-des ul {
+	padding: 0 18px;
+	color: rgb(0, 0, 255);
+}
+
+.article-book .book-des ul li {
+	margin: 5px 0px;
+}
+
+.article-book .book-des p {
+	line-height: 25px;
+	text-indent: 2em;
+	text-align: left;
+}
+/* 评论区 */
+.block {
+	position: relative;
+	top: 70px;
+	border-top: 1px solid rgb(165, 165, 165);
+	height: 800px;
+	padding: 40px 2px;
+	font-size: 15px;
+}
+/* 头部 */
+.block-body {
+	position: relative;
+	padding: 5px 0px;
+}
+
+.block-body .post-taglist {
+	width: 80px;
+	height: 25px;
+	background: rgb(252, 248, 227);
+	border-radius: 4px; /* 圆角 */
+	border: 1px solid rgb(251, 204, 102);
+	border-bottom: 2px solid rgb(251, 204, 102);
+	border-right: 2px solid rgb(251, 204, 102);
+	text-align: center;
+}
+
+.block-body .attention {
+	border-bottom: 1px dashed rgb(165, 165, 165);
+}
+
+.block-body p {
+	color: rgb(197, 197, 197);
+}
+/* 推荐 收藏 打赏 */
+.article-actions {
+	position: relative;
+	margin-top: 15px;
+}
+
+.article-actions-left {
+	position: relative;
+	width: 220px;
+	height: 80px;
+}
+
+.article-actions-left .article-vote {
+	position: absolute;
+	width: 60px;
+	height: 70px;
+	top: 5px;
+	text-align: center;
+	background: rgb(238, 238, 238);
+	border-radius: 5px; /* 圆角 */
+	cursor: pointer;
+}
+
+.article-actions-left .article-vote img {
+	width: 24px;
+	height: 24px;
+}
+
+.article-actions-left .article-vote span {
+	position: relative;
+	top: 10px;
+	font-size: 12px;
+	color: rgb(59, 89, 152);
+}
+
+.article-actions-left .article-vote .text {
+	position: absolute;
+	margin-top: 35px;
+	left: 16px;
+}
+
+.article-actions-left .article-vote .text:hover {
+	color: rgb(238, 119, 17);
+}
+
+.vote1 {
+	left: 10px;
+}
+
+.vote2 {
+	left: 80px;
+}
+
+.vote3 {
+	left: 150px;
+}
+/* 右侧分分享 */
+.article-actions-right {
+	position: absolute;
+	width: 220px;
+	height: 40px;
+	font-size: 14px;
+	left: 570px;
+	top: 5px;
+	text-align: center;
+}
+
+.article-actions-right img {
+	position: relative;
+	top: 6px;
+	width: 130px;
+	cursor: pointer;
+}
+
+.article-actions-right a:hover {
+	color: rgb(165, 92, 92);
+}
+
+/* 评论模块 */
+.comment-block {
+	position: relative;
+	margin-top: 20px;
+	width: 100%;
+	padding:
+}
+
+.comment-form {
+	position: relative;
+	width: 100%;
+	height: 200px;
+	padding: 5px;
+}
+
+.comment-form-box textarea {
+	width: 762px;
+	height: 100px;
+	font-size: 16px;
+	padding: 10px;
+	border-radius: 2px; /* 圆角 */
+	background: rgb(245, 245, 245);
+}
+
+.comment-btn {
+	width: 80px;
+	height: 35px;
+	margin-top: 5px;
+	background: rgb(59, 89, 152);
+	border: none;
+	border-radius: 5px; /* 圆角 */
+	color: rgb(255, 255, 255);
+	cursor: pointer;
+}
+
+.comment-btn:hover {
+	background: rgb(98, 122, 173);
+}
+/* 按时间  按推荐 排序*/
+.nav-tab-primary {
+	position: relative;
+	top: 10px;
+	width: 100%;
+	height: 40px;
+	border-bottom: 1px solid;
+}
+
+.nav-tabs {
+	display: inline;
+}
+
+.nav-tab {
+	display: inline-block;
+	text-align: center;
+	width: 80px;
+	height: 24px;
+	position: relative;
+	left: 550px;
+	padding: 7px;
+	font-size: 16px;
+	margin: 0px;
+	cursor: pointer;
+	border: 1px solid white;
+}
+
+.nt1:hover {
+	border: 1px solid blue;
+}
+
+.nt2 {
+	border: 1px solid;
+	border-bottom: 2px solid white;
+}
+
+.nav-tab:hover {
+	background: rgb(223, 230, 243);
+}
+/* 具体评论 */
+.comment-block {
+	position: relative;
+	font-size: 14px;
+}
+
+.block-comments {
+	position: relative;
+	display: inline;
+	padding: 15px 0px;
+}
+
+.block-comment {
+	position: relative;
+	display: inline-block;
+	width: 791px;
+	height: 90px;
+	border-bottom: 1px dashed rgb(165, 165, 165);
+	margin: 5px 0px;
+	margin-left: 0px;
+}
+
+.avatar {
+	width: 48px;
+	height: 48px;
+	position: relative;
+	top: 20px;
+}
+
+.avatar img {
+	width: 48px;
+	height: 48px;
+	cursor: pointer;
+}
+
+.comment-txt {
+	position: absolute;
+	top: 20px;
+	left: 70px;
+}
+
+.comment-info {
+	position: absolute;
+	top: 50px;
+	left: 70px;
+	color: rgb(169, 198, 136);
+}
+
+.comment-info a:hover {
+	color: rgb(238, 119, 17);
+}
+
+.action-bar {
+	position: absolute;
+	top: 55px;
+	left: 748px;
+	color: rgb(59, 89, 152);
+	cursor: pointer;
+}
+
+.action-bar:hover {
+	color: rgb(238, 119, 17);
+}
+
+/* 右侧作者介绍 */
+.container-right {
+	position: absolute;
+	width: 350px;
+	height: 110px;
+	box-shadow: 1px 1px 20px rgb(232, 232, 232);
+	top: 0px;
+	left: 1050px;
+}
+/* 图片 */
+.con-right-img {
+	width: 64px;
+	height: 64px;
+	position: relative;
+	top: 22px;
+	left: 20px;
+}
+
+.con-right-img img {
+	width: 64px;
+	height: 64px;
+	cursor: pointer;
+}
+/* 姓名 */
+.con-right-name {
+	position: absolute;
+	top: 25px;
+	left: 105px;
+	font-size: 17px;
+}
+
+.con-right-name a:hover {
+	color: rgb(238, 119, 17);
+}
+/* tags */
+.con-right-tags {
+	position: absolute;
+	left: 65px;
+	top: 54px;
+}
+
+.con-right-tags ul {
+	display: inline;
+}
+
+.con-right-tags ul li {
+	display: inline-block;
+	width: 50px;
+	height: 20px;
+	font-size: 14px;
+	padding: 5px 10px;
+	border-radius: 15px; /* 圆角 */
+	cursor: pointer;
+	color: rgb(255, 255, 255);
+}
+
+.con-right-tag1 {
+	background: rgb(126, 211, 23);
+}
+
+.con-right-tag1:hover {
+	background: rgb(121, 200, 31);
+}
+
+.con-right-tag2 {
+	background: rgb(59, 89, 152);
+}
+
+.con-right-tag2:hover {
+	background: rgb(96, 119, 166);
+}

@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>shoppingCart</title>
+<link href="./static/css/frame.css" type="text/css" rel="stylesheet">
+<link href="./static/css/top_login.css" type="text/css" rel="stylesheet">
+<link href="./static/css/shoppingCart.css" type="text/css"
+	rel="stylesheet">
+<link href="./static/css/bottom.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+	<!--***************************头***********************************-->
+	<div class="top">
+		<!-- loog -->
+		<div class="top-logo">
+			<a href="http://localhost:8080/nsu_project/homepage_login.html"><img alt="logo" src="./static/img/homepage/logo.jpg"> </a> <a
+				href="http://localhost:8080/nsu_project/homepage_login.html">东软社区</a>
+		</div>
+		<!-- 第一个ul -->
+		<ul class="top-nav-primary">
+			<li><a href="#">图书</a></li>
+			<li><a href="#">文章</a></li>
+			<li><a href="#">首页</a></li>
+			<!-- 搜索框 -->
+			<li class="top-serarch">
+				<form action="#" method="get">
+					<input type="search" name="q" placeholder="精勤博学    学以致用 "
+						class="key">
+					<button class="go btn btn-link">
+						<img alt="search" src="./static/img/homepage/search-icon.jpg">
+					</button>
+				</form>
+			</li>
+		</ul>
+		<!-- 第二个ul 注册登录 -->
+		<ul class="top-nav-secondary">
+			<li class="top-li1"><a href="#">提醒</a></li>
+			<li class="top-li2"><a
+				href="http://localhost:8080/nsu_project/shoppingCart.html">购书袋</a></li>
+			<li class="top-li3"><a href="#"><img alt="#"
+					src="./static/img/homepage/touxiang.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cnu</a>
+			</li>
+			<li class="top-li4"><a href="#">写作</a></li>
+			<li class="top-li5"><a
+				href="http://localhost:8080/nsu_project/homepage.html">注销</a></li>
+		</ul>
+	</div>
+
+
+	<!--**************************内容*********************************-->
+	<div class="middle">
+		<div class="big">
+			<div class="incl">
+				<h4 id="myCar">我的购物车</h4>
+			</div>
+
+			<table>
+				<tr id="tableHead">
+					<td class="td1">书名</td>
+					<td class="td2">优惠价（原价）</td>
+					<td class="td3">版本</td>
+					<td class="td4">数量</td>
+					<td class="td5">删除</td>
+
+				</tr>
+				<tr>
+					<td class="td1"><a class="bookname" href="#">Java从入门到精通</a></td>
+					<td class="td2">41.78（50.62）</td>
+					<td class="td3">纸质版</td>
+					<td class="td4">1</td>
+					<td class="td5"><a class="delete" href="#">x</a></td>
+				</tr>
+				<tr>
+					<td class="td1"><a class="bookname" href="#">深度学习入门：基于Python的过程实现</a></td>
+					<td class="td2">99.82（113.68）</td>
+					<td class="td3">纸质版</td>
+					<td class="td4">1</td>
+					<td class="td5"><a class="delete" href="#">x</a></td>
+				</tr>
+				<tr>
+					<td class="td1"><a class="bookname" href="#">HTML基础学习</a></td>
+					<td class="td2">13.2（16.88）</td>
+					<td class="td3">电子版</td>
+					<td class="td4">1</td>
+					<td class="td5"><a class="delete" href="#">x</a></td>
+				</tr>
+			</table>
+			<h5 id="money">优惠码以及银子</h5>
+			<div id="search">
+				<input id="goodCode" placeholder="请输入你所拥有的优惠码" type="text" /> <input
+					id="useCode" type="submit" value="使用优惠码" />
+			</div>
+
+
+			<h5 id="address">收货地址</h5>
+
+			<select id="option" name="search">
+				<option value="zhongguo">北京</option>
+				<option value="meiguo">上海</option>
+				<option value="yingguo">四川</option>
+			</select> <select id="option" name="search">
+				<option value="zhongguo">朝阳区</option>
+				<option value="meiguo">虹口区</option>
+				<option value="yingguo">成都</option>
+			</select> <select id="option" name="search">
+				<option value="zhongguo">天安门</option>
+				<option value="meiguo">陆家嘴</option>
+				<option value="yingguo">青城山镇</option>
+			</select> <br /> <br /> <input id="detailAddress" placeholder="请输入你的详情地址"
+				type="text" />
+
+			<div id="incCheck">
+				<input id="checkAddress" type="submit" value="确认" />
+			</div>
+
+
+			<div id="jiesuan">订单结算</div>
+
+
+			<div id="incJiesuan">
+				<div class="jiesuanMoney">合计金额：181.68元</div>
+				<div class="jiesuanMoney">优惠金额：23.63元</div>
+				<div class="jiesuanMoney">
+					(满99元包邮，<a href="#">运费规则</a>)运费：0.00元
+				</div>
+				<div class="jiesuanMoney">
+					实际支付：<span id="finishMoney">158.36元</span>
+				</div>
+
+			</div>
+
+			<div id="agreeDiv">
+				<span id="agree"> <input type="checkbox" id="questionNo"
+					onchange="toggleQuestionNo()"> <label id="agreeLable"
+					for="questionNo">我已经阅读并同意</label>
+				</span>
+
+			</div>
+
+			<input id="checkFinish" type="button" value="确认下单" /> <input
+				id="chooseBook" type="button" value="继续选书" />
+			<textarea id="textArea" rows="5" cols="100" placeholder="输入你的相关建议："></textarea>
+
+		</div>
+
+
+	</div>
+
+
+
+	<!--****************************页脚*******************************-->
+	<div class="bottom">
+		<div class="footer">
+			<p>2018 © 成都东软学院东软社区 · All Rights Reserved</p>
+			<!-- 第一个ul 联系方式 -->
+			<ul class="site-footbav">
+				<li><a href="#">成为译者</a></li>
+				<li><a href="#">成为作者</a></li>
+				<li><a href="#">加入我们</a></li>
+				<li><a href="#">联系我们</a></li>
+			</ul>
+			<!-- 第二个ul 备案 -->
+			<ul class="site-certifies">
+				<li>京ICP备11039595a号</li>
+				<li>京公网安备11010502011375a</li>
+				<li>新出发京零字第东110150a号</li>
+				<li>统一社会信用代码 91110101777086608Fa</li>
+			</ul>
+		</div>
+	</div>
+
+</body>
+<script>
+	
+</script>
+</html>

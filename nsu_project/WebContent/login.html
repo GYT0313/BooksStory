@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>login</title>
+<link href="./static/css/frame.css" type="text/css" rel="stylesheet">
+<link href="./static/css/top.css" type="text/css" rel="stylesheet">
+<link href="./static/css/login.css" type="text/css" rel="stylesheet">
+<link href="./static/css/bottom.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+	<!-- ********************************************************************************** -->
+	<!-- top -->
+	<div class="top">
+		<!-- loog -->
+		<div class="top-logo">
+			<a href="http://localhost:8080/nsu_project/homepage.html"><img alt="logo" src="./static/img/homepage/logo.jpg"> </a> <a
+				href="http://localhost:8080/nsu_project/homepage.html">东软社区</a>
+		</div>
+		<!-- 第一个ul -->
+		<ul class="top-nav-primary">
+			<li class="top-nav-home"><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;</a>
+			</li>
+			<li><a href="#">图书</a></li>
+			<li><a href="#">文章</a></li>
+			<li><a href="#">首页</a></li>
+			<!-- 搜索框 -->
+			<li class="top-serarch">
+				<form action="#" method="get">
+					<input type="search" name="q" placeholder="精勤博学    学以致用 "
+						class="key">
+					<button class="go btn btn-link">
+						<img alt="search" src="./static/img/homepage/search-icon.jpg">
+					</button>
+				</form>
+			</li>
+		</ul>
+		<!-- 第二个ul 注册登录 -->
+		<ul class="top-nav-secondary">
+			<li class="top-register"><a
+				href="http://localhost:8080/nsu_project/register.html">新会员注册</a></li>
+			<li><a href="http://localhost:8080/nsu_project/login.html">登录</a>
+			</li>
+		</ul>
+	</div>
+
+	<!-- ********************************************************************************** -->
+	<!-- middle -->
+	<div class="middle">
+		<form method="post">
+			<div class="login_title">
+				<h4>会员登录</h4>
+			</div>
+
+			<div class="info">
+				<p align="center">
+					邮箱：&nbsp&nbsp&nbsp<input type="text" name="email" size="25"
+						placeholder="邮箱" class="inputinfo" />
+				</p>
+			</div>
+			</br>
+
+			<div class="info">
+				<p align="center">
+					密码：&nbsp&nbsp&nbsp<input type="password" name="email" size="25"
+						placeholder="密码" class="inputinfo" />
+				</p>
+			</div>
+			</br>
+
+			<div class="checkbox">
+				<input type="checkbox" name="remberme" value="true" checked /> <label
+					for="remberme">下次自动登录</label>
+			</div>
+			</br>
+
+			<div class="btn-login">
+				<p>
+					<button type="submit" class="login_btn">
+						<a href="http://localhost:8080/nsu_project/homepage_login.html">登陆</a>
+					</button>
+					</button>
+				</p>
+			</div>
+
+			<div class="help">
+				<p>
+					您还没有账号？请点击这里 <b> <a
+						href="http://localhost:8080/nsu_project/register.html">注册新账号</a>
+					</b>
+				</p>
+
+				<p>
+					您忘记密码了？请点击这里 <b> <a href="">找回密码</a>
+					</b>
+				</p>
+
+				<p>
+					您忘记邮箱了？请点击这里 <b> <a href="">查找账号</a>
+					</b>
+				</p>
+			</div>
+		</form>
+	</div>
+	<!-- ********************************************************************************** -->
+	<!-- bottom -->
+	<div class="bottom">
+		<div class="footer">
+			<p>2018 © 成都东软学院东软社区 · All Rights Reserved</p>
+			<!-- 第一个ul 联系方式 -->
+			<ul class="site-footbav">
+				<li><a href="#">成为译者</a></li>
+				<li><a href="#">成为作者</a></li>
+				<li><a href="#">加入我们</a></li>
+				<li><a href="#">联系我们</a></li>
+			</ul>
+			<!-- 第二个ul 备案 -->
+			<ul class="site-certifies">
+				<li>京ICP备11039595a号</li>
+				<li>京公网安备11010502011375a</li>
+				<li>新出发京零字第东110150a号</li>
+				<li>统一社会信用代码 91110101777086608Fa</li>
+			</ul>
+		</div>
+	</div>
+	<!-- ********************************************************************************** -->
+</body>
+</html>

@@ -1,0 +1,65 @@
+.middle {
+	margin: 0 auto;
+	width: 1170px;
+	height: 525px;
+}
+
+input {
+	margin: 0;
+	padding: 0;
+	outline: rgb(255, 165, 0);
+	border-radius: 6px; /*ÉèÖÃ±ß¿òÎªÔ²½Ç*/
+}
+
+.inputinfo {
+	width: 280px;
+	height: 34px;
+	border: 0px;
+	background-color: rgb(238, 232, 170);
+	padding: 0 10px;
+}
+
+.YZM, .checkbox {
+	margin-left: 465px;
+}
+
+.register_btn {
+	width: 150px;
+	height: 42px;
+	cursor: pointer;
+	background: rgb(0, 0, 255);
+	border-color: rgb(0, 0, 255);
+	opacity: .8;
+	color: #fff;
+	font-size: 18px;
+}
+
+.register_btn:hover {
+	background: rgb(205, 133, 63);
+	border: none;
+}
+
+a {
+	text-decoration: none
+}
+
+a:hover {
+	color: rgb(240, 119, 91);
+}
+
+h4 {
+	font-size: 24px;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 20px;
+}
+
+.login-a {
+	font-size: 18px;
+}
+
+.top-logo a:hover {
+	color: rgb(255, 255, 255);
+}

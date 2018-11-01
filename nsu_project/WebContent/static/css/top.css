@@ -1,0 +1,109 @@
+/* ****************************************************** */
+/* top设置 */
+/* logo */
+.top-logo {
+	width: 160px;
+	height: 60px;
+	position: relative;
+	left: 230px;
+	vertical-align: middle;
+}
+
+.top-logo img {
+	position: relative;
+	top: 10px;
+	cursor: pointer;
+}
+
+.top-logo a {
+	height: 40px;
+	font-size: 18px;
+	text-align: center;
+	cursor: pointer;
+}
+/* nav第一部分 */
+.top-nav-primary {
+	list-style-type: none;
+	display: inline;
+	position: absolute;
+	top: 0px;
+	left: 360px;
+}
+
+.top-nav-primary li {
+	display: inline-block;
+}
+
+.top a {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+
+.top a:link {
+	color: rgb(255, 255, 255);
+	list-style-type: none;
+}
+
+.top-nav-primary a:hover {
+	color: rgb(255, 255, 255);
+	background: rgb(52, 78, 134);
+}
+
+.top-nav-primary li a {
+	height: 60px;
+	width: 76px;
+	padding: 16px;
+}
+/* 输入框 */
+.key {
+	font-size: 16px;
+	width: 180px;
+	height: 30px;
+	border-radius: 6px; /* 圆角 */
+	padding: 0 10px;
+	border: none;
+	background: rgb(203, 217, 245);
+}
+/* 搜索框 */
+.go {
+	padding: 0px;
+	border-radius: 6px; /* 圆角 */
+}
+
+.go img {
+	height: 21px;
+	vertical-align: middle;
+	background: rgb(203, 217, 245);
+	position: absolute;
+	top: 0px;
+	border-radius: 6px; /* 圆角 */
+	padding: 5px;
+	cursor: pointer;
+}
+
+/* nav第二部分 */
+.top-nav-secondary {
+	list-style-type: none;
+	display: inline;
+	position: absolute;
+	top: 0px;
+	left: 1100px;
+}
+
+.top-nav-secondary li {
+	display: inline-block;
+}
+
+.top-nav-secondary li a {
+	height: 40px;
+	width: 70px;
+	padding: 12px;
+	background: rgb(68, 105, 181);
+	border-radius: 10px; /* 圆角 */
+}
+
+.top-nav-secondary li a:hover {
+	background: rgb(52, 78, 134);
+}
+
+/* ****************************************************** */

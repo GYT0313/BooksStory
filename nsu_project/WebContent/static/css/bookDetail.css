@@ -1,0 +1,610 @@
+.middle {
+	margin-top: 0px;
+	position: relative;
+	height: 2800px;
+}
+
+a {
+	text-decoration: none;
+}
+
+/***设置a标签变色***/
+a:hover {
+	color: rgb(236, 151, 36);
+}
+
+/* *************************middle部分***************************** */
+#big {
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	border: 1px solid white;
+}
+
+/****middle大体框架****/
+#imgDiv, #detailDiv, #priceDiv {
+	height: 500px;
+	Float: left;
+}
+
+#imgDiv {
+	width: 260px;
+}
+
+#detailDiv {
+	width: 590px;
+}
+
+#priceDiv {
+	width: 256px;
+}
+
+/*在浮动时使用两个div将他们隔开*/
+.buchong {
+	width: 43px;
+	height: 470px;
+	Float: left;
+}
+/***********书的封面位置*********/
+#bookLogo {
+	width: 258px;
+}
+
+.book-bian {
+	box-shadow: 1px 1px 20px rgb(232, 232, 232);
+	margin-top: 32px;
+}
+
+/***上外边距***/
+#tuiDiv, #tuiDiv2 {
+	margin-top: 20px;
+}
+
+#tuiDiv {
+	background: #eee;
+	width: 30px;
+	padding-left: 15px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-right: 15px;
+	Float: left;
+	text-align: center;
+}
+
+.number {
+	font-size: 26px;
+	font-weight: 500;
+	line-height: 35px;
+	color: #3b5998;
+}
+
+.text {
+	font-size: 12px;
+	color: #3b5998;
+}
+
+#tuiDiv2 {
+	width: 72px;
+	padding-left: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 15px;
+	Float: left;
+	text-align: center;
+	border: 2px solid #e8e8e8;
+	color: #767676;
+}
+
+/***99.9k  阅读**/
+.number2 {
+	font-size: 26px;
+	font-weight: 500;
+	line-height: 35px;
+	color: #3b5998;
+}
+
+/****设置推荐颜色改变****/
+.number:hover, .number2:hover {
+	color: rgb(236, 151, 36);
+}
+
+.text2 {
+	font-size: 12px;
+	color: #3b5998;
+}
+
+/**浮动的div之间写一个div进行分隔***/
+.buBook {
+	width: 15px;
+	Float: left;
+	height: 5px;
+}
+
+/*****************书的介绍部分********************/
+#bookName {
+	font-weight: 400px;
+	font-size: 30px;
+	color: #111;
+}
+
+.author {
+	color: #9c9c9c;
+}
+
+.author #fanyi {
+	margin-left: 1em;
+}
+
+#book-lable {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#book-lable a, .lable-sale {
+	margin-left: 1em;
+	padding: 5px 5px 5px 5px;
+	border-radius: 5px;
+	border: 1px solid #7f9fb6;
+	background: #e0eaf1;
+	color: #3e6d8e;
+	font-size: 14px;
+}
+
+.lable-sale {
+	margin-left: 0px;
+	background: #5bc0de;
+	color: #fff;
+}
+
+#book-lable a:hover {
+	color: #ec971f;
+}
+
+/***书的内容介绍部分****/
+.introduce {
+	margin-top: 20px;
+	margin-bottom: 0px;
+	color: #8a6d3b;
+	border: 1px solid black;
+	border-radius: 10px; /*设置圆角*/
+	line-height: 25px; /*行距*/
+	padding: 5px 5px 5px 5px;
+	background: #fcf8e3;
+	border-color: #faebcc;
+}
+
+.content-main {
+	margin-top: 10px;
+	color: #767676;
+	font-size: 16px;
+	height: 28px;
+	margin-bottom: 90px;
+}
+
+#share-logo {
+	width: 100%;
+	height: 40px;
+	background-image: url(../img/bookDetail/share.png);
+	background-repeat: no-repeat;
+	background-position: 410px 0;
+}
+
+/*******纸质版价格等*********/
+#dian-price {
+	margin-top: 20px;
+}
+
+/*设置价格文字*/
+.book-price {
+	font-size: 24px;
+	color: #f90;
+	font-style: 微软雅黑;
+	margin-left: 20px;
+}
+
+.book-format {
+	color: green;
+	margin-left: 20px;
+	padding-top: 10px;
+}
+
+/*****价格背景等******/
+#priceDiv {
+	width: 250px;
+	height: 350px;
+	margin-top: 100px;
+	border-radius: 6px;
+	background: #f5f5f5;
+}
+
+#check-dian {
+	background-color: #ec971f;
+	border-color: #d58512;
+	color: #fff;
+	width: 200px;
+	height: 40px;
+	margin-top: 10px;
+	margin-left: 25px;
+	border-radius: 8px;
+	font-size: 16px;
+}
+
+#line {
+	width: 230px;
+	height: 30px;
+	border-bottom: 1px dashed black;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+/***暂无样书**/
+#no-book {
+	background-color: #fff;
+	border-color: #ccc;
+	color: #3b5998;
+	width: 200px;
+	height: 40px;
+	margin-top: 10px;
+	margin-left: 25px;
+	border-radius: 8px;
+	font-size: 16px;
+}
+
+/***购买按钮**
+   .buy:hover{
+      background:black;
+  
+   }*/
+
+/****************本书特色********************/
+#tese {
+	width: 100%;
+	height: 400px;
+	margin-top: 500px;
+}
+
+#tese-content, #tese-buchong, #tese-prize {
+	Float: left;
+	height: 350px;
+}
+
+#tese-content {
+	width: 890px;
+	font-size: 22px;
+	color: #111;
+}
+
+#tese-content p {
+	font-size: 14px;
+}
+
+#tese-content div {
+	border-top: 1px solid rgb(180, 180, 180);
+	width: 890px;
+	height: 10px;
+}
+
+#test-content h3 {
+	font-size: 30px;
+	color: red;
+}
+
+#tese-buchong {
+	width: 45px;
+}
+
+#tese-prize {
+	width: 240px;
+}
+
+#table-prize {
+	width: 230px;
+	height: 182px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+
+.table-content {
+	width: 217px;
+	height: 60px;
+	border-top: 1px solid #a5a5a5;
+	border-left: 1px solid #a5a5a5;
+	border-right: 1px solid #a5a5a5;
+	line-height: 60px;
+	font-size: 16px;
+	padding-left: 10px;
+}
+
+.table-content a {
+	color: #111;
+}
+
+#table-content-spe {
+	border-bottom: 1px solid #a5a5a5;
+}
+
+.table-content:hover {
+	background: #dfe6f3;
+}
+
+/***********目录************/
+#mulu {
+	width: 100%;
+	height: 750px;
+}
+
+#mulu-content, #mulu-buchong, #public-info {
+	Float: left;
+	height: 700px;
+}
+
+#mulu-content {
+	width: 890px;
+	font-size: 22px;
+	color: #111;
+}
+
+#mulu-content #line {
+	border-top: 1px solid rgb(180, 180, 180);
+	width: 890px;
+	height: 10px;
+}
+
+.content-detail, .content-detail2 {
+	width: 425px;
+	height: 40px;
+	font-size: 14px;
+	line-height: 40px;
+	padding-left: 20px;
+	Float: left;
+}
+
+.content-detail {
+	background: rgb(230, 230, 230);
+}
+
+.content-detail2 {
+	background: rgb(255, 255, 255);
+}
+
+.content-detail a, .content-detail2 a {
+	
+}
+
+#mulu-buchong {
+	width: 45px;
+}
+
+#public-info {
+	width: 240px;
+	color: #9c9c9c;
+}
+
+#public-info h3 {
+	color: #111;
+}
+
+#public-info p {
+	font-size: 14px;
+}
+
+#public-buchong {
+	width: 240px;
+	border-top: 1px solid rgb(180, 180, 180);
+	height: 10px;
+}
+
+.public-detail {
+	margin-left: 15px;
+	color: #111;
+}
+
+/**************大家都喜欢*******************/
+#like {
+	width: 100%;
+	height: 350px;
+}
+
+#like h3 {
+	font-size: 22px;
+}
+
+#like-line {
+	width: 890px;
+	height: 20px;
+	border-top: 1px solid rgb(165, 165, 165);
+}
+
+.books, .books-buchong {
+	height: 300px;
+	Float: left;
+}
+
+.books {
+	width: 120px;
+}
+
+.books-buchong {
+	width: 70px;
+}
+
+/****设置封面的大小***/
+.books img {
+	width: 115px;
+	height: 181px;
+	box-shadow: 1px 1px 20px rgb(232, 232, 232);
+}
+
+.book-author {
+	font-size: 14px;
+}
+
+.book-name {
+	font-size: 16px;
+	color: rgb(60, 90, 152);
+}
+
+/***********************相关文章**********************/
+#about {
+	width: 100%;
+	border: 1px solid white;
+	height: 320px;
+}
+
+#about h3 {
+	font-size: 22px;
+}
+
+#about-line {
+	width: 890px;
+	height: 20px;
+	border-top: 1px solid rgb(165, 165, 165);
+}
+
+.about-wen {
+	Float: left;
+	width: 800px;
+}
+
+.about-tuijian {
+	Float: left;
+	width: 50px;
+	height: 80px;
+	line-height: 20px;
+	background: rgb(238, 238, 238);
+}
+
+.tuijian-num {
+	font-size: 24px;
+	margin-left: 18px;
+	padding-top: 10px;
+}
+
+.tuijian-num {
+	color: #23527c;
+}
+
+.tuijian-wen {
+	font-size: 12px;
+	color: #777;
+	margin-left: 12px;
+}
+
+.about-wen .wen-name {
+	color: #23527c;
+	font-size: 18px;
+}
+
+.about-wen p, .tuijian-author {
+	color: rgb(118, 118, 118);
+	font-size: 14px;
+}
+
+.tuijian-author {
+	color: #23527c;
+}
+
+/*************************评论**************************/
+#comment {
+	width: 100%;
+	height: 500px;
+}
+
+#comment-big {
+	width: 890px;
+	height: 100%;
+	border: 1px dashed black;
+}
+
+/*****评论文本域****/
+.comment textarea {
+	width: 890px;
+	height: 110px;
+	margin-top: 30px;
+}
+
+.comment-submit {
+	margin-top: 10px;
+	width: 80px;
+	height: 30px;
+	background: #3b5998;
+	border-color: #3b5998;
+	color: white;
+	border-radius: 5px;
+}
+
+/**按钮悬空*/
+.comment-submit:hover {
+	color: rgb(236, 151, 36);
+}
+
+.comment-line {
+	margin-top: 40px;
+	width: 890px;
+	height: 10px;
+	border-top: 1px solid rgb(160, 160, 160);
+}
+
+/**人物评论部分***/
+.comment-people {
+	height: 80px;
+	width: 890px;
+}
+
+.comment-img, .comment-words, .huifu {
+	Float: left;
+	height: 70px;
+}
+
+.comment-img {
+	width: 50px;
+}
+
+.comment-words {
+	width: 700px;
+	border-bottom: 1px dashed black;
+}
+
+.huifu {
+	width: 140px;
+	border-bottom: 1px dashed black;
+}
+
+.comment-words div {
+	margin-top: 8px;
+	font-size: 14px;
+}
+
+.huifu div {
+	margin-top: 35px;
+	font-size: 15px;
+	color: rgb(59, 89, 152);
+}
+
+.huifu a {
+	color: rgb(59, 89, 152);
+}
+
+.huifu a:hover {
+	color: rgb(236, 151, 36);
+}
+
+.comment-img img {
+	width: 42px;
+	margin-top: 10px;
+}
+
+.comment-img p {
+	font-size: 14px;
+}
+
+/****评论页码切换*****/
+.first-page, .second-page {
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+.top-logo a:hover {
+	color: rgb(255, 255, 255);
+}

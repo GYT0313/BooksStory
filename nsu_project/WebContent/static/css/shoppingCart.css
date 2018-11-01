@@ -1,0 +1,286 @@
+.middle {
+	height: 850px;
+	width: 100%;
+}
+
+.middle a {
+	text-decoration: none; /*取消下划线*/
+}
+
+.middle input {
+	cursor: pointer;
+}
+/******************middle*******************/
+.big {
+	width: 750px;
+	height: 600px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+#myCar {
+	font-size: 22px;
+	color: #333;
+}
+
+.incl {
+	border-bottom: 1px solid black;
+	margin-top: 0px;
+}
+/**************表格****************/
+table {
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding: 0px;
+	border-collapse: collapse;
+	margin-top: 10px;
+}
+
+.td1 {
+	width: 350px;
+}
+
+.td2 {
+	width: 200px;
+}
+
+.td3 {
+	width: 100px;
+}
+
+.td4 {
+	width: 90px;
+}
+
+.td5 {
+	width: 60px;
+}
+
+td {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 14px;
+	padding-left: 10px;
+}
+
+tr {
+	border: 1px solid #ccc;
+}
+
+#tableHead /*修改表头字体粗细*/ {
+	font-weight: 600;
+}
+
+/*书名设置*/
+.bookname {
+	text-decoration: none; /*取消下划线*/
+	color: #3b5998;
+}
+
+/*鼠标悬停的事件*/
+a:active, a:hover, a:focus, delete:active, delete:hover, delete:focus {
+	color: #e71;
+}
+
+.top-logo a:hover {
+	color: rgb(255, 255, 255);
+}
+
+.delete {
+	text-decoration: none; /*取消下划线*/
+	color: #3b5998;
+	font-size: 17px;
+}
+
+/*优惠码及银子*/
+#money {
+	font-size: 18px;
+	color: #333;
+	font-weight: 500;
+}
+
+#search {
+	height: 30px;
+	width: 500px;
+}
+
+#goodCode {
+	height: 30px;
+	width: 350px;
+	Float: left;
+	border: 1px solid #ccc; /*设置搜索框的边框*/
+}
+
+#useCode {
+	height: 34px;
+	width: 100px;
+	margin-left: 0px;
+	Float: left;
+	border: 1px solid #ccc; /*设置搜索框的边框*/
+	background: white; /*背景色*/
+	border-radius: 2px;
+}
+
+#useCode:hover {
+	background: #e6e6e6;
+}
+
+#address {
+	font-size: 18px;
+	font-weight: 400;
+}
+
+#option {
+	width: 80px;
+	height: 30px;
+}
+
+#detailAddress {
+	height: 30px;
+	width: 350px;
+	border: 1px solid #ccc; /*设置搜索框的边框*/
+}
+
+#checkAddress {
+	height: 34px;
+	width: 100px;
+	margin-left: 0px;
+	border: 1px solid #ccc; /*设置搜索框的边框*/
+	background: #3b5998; /*背景色*/
+	border-radius: 4px;
+	color: white;
+}
+/*地址确认按钮，鼠标悬空效果*/
+#checkAddress:hover {
+	background: #e71;
+}
+
+#incCheck {
+	margin-top: 20px;
+}
+
+/*************结算部分***************/
+#jiesuan {
+	margin-top: 30px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid black;
+	font-size: 18px;
+	font-weight: 500;
+	color: #333;
+}
+
+#incJiesuan {
+	
+}
+
+.jiesuanMoney {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: #333;
+	font-size: 16px;
+	width: 100%;
+	text-align: right;
+}
+
+#finishMoney {
+	color: #e71;
+	font-size: 24px;
+}
+
+#agreeDiv {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	color: #333;
+	font-size: 16px;
+	width: 100%;
+	text-align: right;
+	margin-left: 544px;
+}
+
+#agree {
+	position: relative;
+	display: block; /*mar
+         in: 20px 100px;*/
+}
+
+#agree #questionNo {
+	display: none;
+}
+
+#agree #agreeLable {
+	/*label标签用于Click事件和我们要定义的复选框的方框样式。*/
+	padding-left: 25px;
+	cursor: pointer;
+	position: absolute;
+	height: 25px;
+	top: 0;
+	left: 0;
+	/*width: 30px;      如果没有文字，打开这段样式            background: #eee;            border: 1px solid #ddd;*/
+}
+/*创建方框中的对勾，对于这一点，我们可以使用:after伪类创建一个新的元素，为了实现这个样式，我们可以创建一个5px x 9px的长方形并给他加上边框。        这时候我们去掉上面和右边的边框之后，它会看起来像一个字母L。然后我们可以使用CSS的transform属性让它旋转一下，这样看起来就像是一个对勾。*/
+#agree #agreeLable::after {
+	content: '';
+	opacity: 0.2;
+	/*设置复选框标签透明度0.2,半透明的对勾 下面悬停时候加深*/
+	position: absolute;
+	width: 9px;
+	height: 5px;
+	background: transparent;
+	top: 6px;
+	left: 7px;
+	border: 3px solid black;
+	border-top: none;
+	border-right: none;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+#agreeLable:hover::after {
+	opacity: 0.5;
+}
+
+input[type=checkbox]:checked+label:after { /*checkbox选中后，设置相邻元素对勾为不透明*/
+	opacity: 1;
+}
+
+/*确认下单*/
+#checkFinish {
+	height: 50px;
+	width: 130px;
+	border: 1px solid #ccc; /*设置搜索框的边框*/
+	background: #3b5998; /*背景色*/
+	border-radius: 8px;
+	color: white;
+	font-size: 20px;
+	margin-left: 470px;
+	margin-top: 20px;
+}
+
+/*继续选书*/
+#chooseBook {
+	height: 49px;
+	width: 130px;
+	border: 1px solid #ccc; /*设置搜索框的边框*/
+	background: white; /*背景色*/
+	border-radius: 8px;
+	color: #23527c;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+/****按钮悬空事件*****/
+#checkFinish:hover, #chooseBook:hover {
+	background: #adadad;
+}
+
+/*文本域*/
+#textArea {
+	margin-top: 40px;
+	border-radius: 5px;
+	font-size: 14px;
+}

@@ -1,0 +1,57 @@
+/* bottom部分 */
+.footer {
+	padding: 20px 0;
+	position: relative;
+	height: 40px;
+}
+
+.footer p {
+	position: absolute;
+	font-size: 16px;
+	left: 145px;
+	color: rgb(147, 102, 102);
+}
+/* 第一个ul */
+.site-footbav {
+	list-style-type: none;
+	display: inline;
+	position: absolute;
+	top: 0px;
+	left: 940px;
+	font-size: 16px;
+}
+
+.site-footbav li {
+	display: inline-block;
+	padding: 20px 15px;
+}
+
+.site-footbav li a {
+	color: rgb(59, 89, 152);
+	text-decoration: none;
+}
+
+.site-footbav li a:link {
+	color: rgb(59, 89, 152);
+	list-style-type: none;
+}
+
+.site-footbav li a:hover {
+	color: rgb(239, 119, 89);
+}
+/* 第二个ul */
+.site-certifies {
+	list-style-type: none;
+	display: inline;
+	position: absolute;
+	top: 0px;
+	font-size: 14px;
+	top: 80px;
+	left: 100px;
+}
+
+.site-certifies li {
+	display: inline-block;
+	padding: 0 5px;
+	color: rgb(180, 180, 180);
+}

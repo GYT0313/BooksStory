@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>homepage_login</title>
+<link href="./static/css/frame.css" type="text/css" rel="stylesheet">
+<link href="./static/css/top_login.css" type="text/css" rel="stylesheet">
+<link href="./static/css/homepage.css" type="text/css" rel="stylesheet">
+<link href="./static/css/bottom.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+	<!-- ********************************************************************************** -->
+	<!-- top -->
+	<div class="top">
+		<!-- loog -->
+		<div class="top-logo">
+			<a href="http://localhost:8080/nsu_project/homepage_login.html"><img alt="logo" src="./static/img/homepage/logo.jpg"> </a> <a
+				href="http://localhost:8080/nsu_project/homepage_login.html">东软社区</a>
+		</div>
+		<!-- 第一个ul -->
+		<ul class="top-nav-primary">
+			<li><a href="#">图书</a></li>
+			<li><a href="#">文章</a></li>
+			<li><a href="#">首页</a></li>
+			<!-- 搜索框 -->
+			<li class="top-serarch">
+				<form action="#" method="get">
+					<input type="search" name="q" placeholder="精勤博学    学以致用 "
+						class="key">
+					<button class="go btn btn-link">
+						<img alt="search" src="./static/img/homepage/search-icon.jpg">
+					</button>
+				</form>
+			</li>
+		</ul>
+		<!-- 第二个ul 注册登录 -->
+		<ul class="top-nav-secondary">
+			<li class="top-li1"><a href="#">提醒</a></li>
+			<li class="top-li2"><a
+				href="http://localhost:8080/nsu_project/shoppingCart.html">购书袋</a></li>
+			<li class="top-li3"><a href="#"><img alt="#"
+					src="./static/img/homepage/touxiang.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cnu</a>
+			</li>
+			<li class="top-li4"><a href="#">写作</a></li>
+			<li class="top-li5"><a
+				href="http://localhost:8080/nsu_project/homepage.html">注销</a></li>
+		</ul>
+	</div>
+
+	<!-- ********************************************************************************** -->
+	<!-- middle -->
+	<div class="middle">
+		<div class="home">
+			<!-- 书籍标签 -->
+			<div class="book-tags">
+				<span class="book-type-tags"> <a class="post-tag" href="#">Python</a>
+					<a class="post-tag" href="#">JavaScript</a> <a class="post-tag"
+					href="#">机器学习</a> <a class="post-tag" href="#">Java</a> <a
+					class="post-tag" href="#">算法</a> <a class="post-tag" href="#">数学</a>
+					<a class="post-tag" href="#">C语言</a> <a class="post-tag" href="#">Linux</a>
+					<a class="post-tag" href="#">预售</a> <a class="post-tag" href="#">每周特价</a>
+				</span>
+			</div>
+			<!-- 书籍展示 -->
+			<div class="home-left">
+				<div class="books">
+					<div class="book-header">
+						<h4>
+							<a href="#">热门图书</a>
+						</h4>
+						<div class="books-more">
+							<span> < </span> <span> > </span>
+						</div>
+					</div>
+
+					<!-- 书籍详情 -->
+					<ul class="book-items">
+						<li class="book-item">
+							<div class="book-img">
+								<a href="http://localhost:8080/nsu_project/bookDetail_login.html"><img alt="#" src="./static/img/homepage/suanfatujie.jpg"></a>
+							</div>
+							<div class="book-info">
+								<h4>
+									<a href="http://localhost:8080/nsu_project/bookDetail_login.html">算法图解</a>
+								</h4>
+								<div class="author">
+									<span>Aditya Bhargava</span> <br> <span>袁国忠 译</span>
+								</div>
+							</div>
+						</li>
+						<li class="book-item">
+							<div class="book-img">
+								<img alt="#" src="./static/img/homepage/pythonjichujiaocheng.jpg">
+							</div>
+							<div class="book-info">
+								<h4>
+									<a href="#">Python基础教程（第3版）</a>
+								</h4>
+								<div class="author">
+									<span>Magnus Lie Hetland</span> <br> <span>袁国忠 译</span>
+								</div>
+							</div>
+						</li>
+						<li class="book-item">
+							<div class="book-img">
+								<img alt="#" src="./static/img/homepage/flaskweb.jpg">
+							</div>
+							<div class="book-info">
+								<h4>
+									<a href="#">Flask Web开发：基于Python的Web</a>
+								</h4>
+								<div class="author">
+									<span>[美]米格尔•格林贝格</span> <br> <span>安道 译</span>
+								</div>
+							</div>
+						</li>
+						<li class="book-item">
+							<div class="book-img">
+								<img alt="#" src="./static/img/homepage/nibuzhidaodejavascript.jpg">
+							</div>
+							<div class="book-info">
+								<h4>
+									<a href="#">你不知道的JavaScript（下卷） </a>
+								</h4>
+								<div class="author">
+									<span>Kyle Simpson</span> <br> <span>单业 译</span>
+								</div>
+							</div>
+						</li>
+						<li class="book-item">
+							<div class="book-img">
+								<img alt="#" src="./static/img/homepage/liuchangdepython.jpg">
+							</div>
+							<div class="book-info">
+								<h4>
+									<a href="#">流畅的Python</a>
+								</h4>
+								<div class="author">
+									<span>Luciano Ramalho</span> <br> <span>安道 吴珂 译</span>
+								</div>
+							</div>
+						</li>
+						<li class="book-item">
+							<div class="book-img">
+								<img alt="#" src="./static/img/homepage/bianchengfengge.jpg">
+							</div>
+							<div class="book-info">
+								<h4>
+									<a href="#">编程风格：好代码的逻辑</a>
+								</h4>
+								<div class="author">
+									<span>Cristina Videira Lopes</span> <br> <span>顾中磊
+										译</span>
+								</div>
+							</div>
+						</li>
+						<li class="book-item">
+							<div class="book-img">
+								<img alt="#" src="./static/img/homepage/yongshuxuekanshijie.jpg">
+							</div>
+							<div class="book-info">
+								<h4>
+									<a href="#">用数学的语言看世界</a>
+								</h4>
+								<div class="author">
+									<span>大栗博司</span> <br> <span>尤斌斌 译</span>
+								</div>
+							</div>
+						</li>
+						<li class="book-item">
+							<div class="book-img">
+								<img alt="#" src="./static/img/homepage/tujiejavatuxiancheng.jpg">
+							</div>
+							<div class="book-info">
+								<h4>
+									<a href="#">图解Java多线程设计模式</a>
+								</h4>
+								<div class="author">
+									<span>结城浩</span> <br> <span>侯振龙 杨文轩 译</span>
+								</div>
+							</div>
+						</li>
+						<li class="book-item">
+							<div class="book-img">
+								<img alt="#" src="./static/img/homepage/Rshujukexue.jpg">
+							</div>
+							<div class="book-info">
+								<h4>
+									<a href="#">R数据科学</a>
+								</h4>
+								<div class="author">
+									<span>新西兰]哈德利•威克姆 [美]加勒特•格罗勒芒德</span> <br> <span>陈光欣
+										译</span>
+								</div>
+							</div>
+						</li>
+						<li class="book-item">
+							<div class="book-img">
+								<img alt="#" src="./static/img/homepage/javacongxiaobaidaodaniu.jpg">
+							</div>
+							<div class="book-info">
+								<h4>
+									<a href="#">Java从小白到大牛 精简版</a>
+								</h4>
+								<div class="author">
+									<span>关东升</span>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+				<!-- 底部推荐文章展示 -->
+				<div class="recommend">
+					<div class="recommend-header">
+						<h4>
+							<a href="#">推荐文章</a>
+						</h4>
+						<div class="recommend-more">
+							<span> 更多 >> </span>
+						</div>
+					</div>
+					<!-- 文章列表 -->
+					<ul class="recommend-items">
+						<li class="recommend-item"><a class="article-avatar" href="http://localhost:8080/nsu_project/recommend_login.html"><img
+								alt="#" src="./static/img/homepage/xinshu.png"></a>
+							<div class="article-vote">
+								<span class="number">11</span> <br> <span class="text1">推荐</span>
+							</div>
+							<h2 class="article-title">
+								<a href="http://localhost:8080/nsu_project/recommend_login.html">9月书讯：新书早知道</a>
+							</h2>
+							<div class="article-summary">
+								<div class="text">
+									<p>...</p>
+								</div>
+							</div>
+							<div class="article-meta">
+								<a class="article-author">张敏</a> <span class="time">发表于
+									2018-09-19</span>
+							</div></li>
+
+						<li class="recommend-item"><a class="article-avatar"><img
+								alt="#" src="./static/img/homepage/wenzhang1.png"></a>
+							<div class="article-vote">
+								<span class="number">3</span> <br> <span class="text1">推荐</span>
+							</div>
+							<h2 class="article-title">
+								<a href="#">大学只有我这样荒废吗？</a>
+							</h2>
+							<div class="article-summary">
+								<div class="text">
+									<p>已经大三了，现在转身看看自己学会了什么，懂得了什么，经历了什么，或许真的一只手都可以数过来吧。</p>
+								</div>
+							</div>
+							<div class="article-meta">
+								<a class="article-author">时间永恒</a> <span class="time">发表于
+									2018-09-19</span>
+							</div></li>
+
+						<li class="recommend-item"><a class="article-avatar"><img
+								alt="#" src="./static/img/homepage/wenzhang2.png"></a>
+							<div class="article-vote">
+								<span class="number">1</span> <br> <span class="text1">推荐</span>
+							</div>
+							<h2 class="article-title">
+								<a href="#">Python 小入坑</a>
+							</h2>
+							<div class="article-summary">
+								<div class="text">
+									<p>python入坑学习的是python3官网 https://www.python.org/</p>
+								</div>
+							</div>
+							<div class="article-meta">
+								<a class="article-author">xiaoxiaoming</a> <span class="time">发表于
+									2018-10-03</span>
+							</div></li>
+
+						<li class="recommend-item"><a class="article-avatar"><img
+								alt="#" src="./static/img/homepage/wenzhang3.png"></a>
+							<div class="article-vote back">
+								<span class="number"><img alt="#"
+									src="./static/img/homepage/dianzhan.png"></span> <br> <span
+									class="text1">推荐</span>
+							</div>
+							<h2 class="article-title">
+								<a href="#">周朝阳：怎样的思维方式决定了怎样的远见、广度和深度</a>
+							</h2>
+							<div class="article-summary">
+								<div class="text">
+									<p>一 中国人说：我认为这样做是对的；外国人说：也许你是对的，这是思维方式的问题。</p>
+								</div>
+							</div>
+							<div class="article-meta">
+								<a class="article-author">周朝阳</a> <span class="time">发表于
+									2018-09-22</span>
+							</div></li>
+
+						<li class="recommend-item"><a class="article-avatar"><img
+								alt="#" src="./static/img/homepage/wenzhang4.png"></a>
+							<div class="article-vote">
+								<span class="number">4</span> <br> <span class="text1">推荐</span>
+							</div>
+							<h2 class="article-title">
+								<a href="#">从《别拿相关当因果》看“消费升降级”之争</a>
+							</h2>
+							<div class="article-summary">
+								<div class="text">
+									<p>“一口榨菜一口二锅头，骑着摩拜遛一遛，购物用‘9块9包邮’”这个夏天，“消费降级”成了一个新词汇 —— 新华</p>
+								</div>
+							</div>
+							<div class="article-meta">
+								<a class="article-author">阿狸不歌</a> <span class="time">发表于
+									2018-09-18</span>
+							</div></li>
+
+						<li class="recommend-item"><a class="article-avatar"><img
+								alt="#" src="./static/img/homepage/wenzhang5.png"></a>
+							<div class="article-vote">
+								<span class="number">2</span> <br> <span class="text1">推荐</span>
+							</div>
+							<h2 class="article-title">
+								<a href="#">往后见</a>
+							</h2>
+							<div class="article-summary">
+								<div class="text">
+									<p>有次看到影视里面的主人公可以轻易利用电脑来完成编程来开发软件来做一款游戏，然后卖给软件公司获得一笔不菲的...</p>
+								</div>
+							</div>
+							<div class="article-meta">
+								<a class="article-author">CJrabbit</a> <span class="time">发表于
+									2018-09-24</span>
+							</div></li>
+
+						<li class="recommend-item"><a class="article-avatar"><img
+								alt="#" src="./static/img/homepage/wenzhang6.png"></a>
+							<div class="article-vote">
+								<span class="number">1</span> <br> <span class="text1">推荐</span>
+							</div>
+							<h2 class="article-title">
+								<a href="#">计算斐波那契数列的算法</a>
+							</h2>
+							<div class="article-summary">
+								<div class="text">
+									<p>// 计算斐波那契数列第n项1 1 2 3 5 8 13 21long fi(int n){long
+										result = 1;long previous = 1;long pprevious = 1;...</p>
+								</div>
+							</div>
+							<div class="article-meta">
+								<a class="article-author">peizhang</a> <span class="time">发表于
+									2018-10-05</span>
+							</div></li>
+					</ul>
+				</div>
+			</div>
+
+
+			<!-- 右侧资讯展示 -->
+			<div class="information">
+				<!-- 即将上市 -->
+				<div class="info-block1">
+					<div class="info-block1-header">
+						<h4>
+							<a href="#">即将上市</a>
+						</h4>
+						<div class="info-block1-more">
+							<span> 更多 >> </span>
+						</div>
+					</div>
+					<div class="info-block-items">
+						<ul class="block-items">
+							<li class="block-item block-li1">
+								<div class="book-info">
+									<h4 class="name">
+										<a href="#">我的第一本算法书</a>
+									</h4>
+									<div class="author">
+										<span>宫崎修一 石田保辉 </span> <span>张贝 译</span>
+									</div>
+								</div>
+							</li>
+							<li class="block-item block-li2">
+								<div class="book-info">
+									<h4 class="name">
+										<a href="#">Python社会媒体挖掘</a>
+									</h4>
+									<div class="author">
+										<span>马尔科·邦扎尼尼</span> <span>陈小莉 陶俊杰 译</span>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<!-- 东软动态 -->
+				<div class="info-block2">
+					<div class="info-block2-header">
+						<h4>
+							<a href="#">东软动态</a>
+						</h4>
+					</div>
+					<dl>
+						<dt>
+							<a href="#">🌟 最新书讯</a>
+						</dt>
+						<dd>
+							<p>
+								<a href="#">9月书讯：新书早知道</a>
+							</p>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<a href="#">🚚 纸质书开通预售</a>
+						</dt>
+						<dd>
+							<p>
+								<a href="#">9月书讯：新书早知道</a>
+							</p>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<a href="#">👤 东软访谈</a>
+						</dt>
+						<dd>
+							<p>
+								<a href="#">9月书讯：新书早知道</a>
+							</p>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<a href="#">🥣 电子书每周特价</a>
+						</dt>
+						<dd>
+							<p>
+								<a href="#">9月书讯：新书早知道</a>
+							</p>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<a href="#">😀 电子书阅读奖励计划</a>
+						</dt>
+						<dd>
+							<p>
+								<a href="#">9月书讯：新书早知道</a>
+							</p>
+						</dd>
+					</dl>
+				</div>
+
+				<!-- 关注我们 -->
+				<div class="info-block3">
+					<div class="info-block3-header">
+						<h4>
+							<a href="#">关注我们</a>
+						</h4>
+					</div>
+					<div class="block-us">
+						<p class="sx">
+							📬 Email 订阅 <br> <a href="#">新书书讯和每周特价消息</a>
+						</p>
+						<p class="wb1">
+							🌀 微博 <br> <a href="#">@东软教育</a> <a href="#">@东软新知</a> <a
+								href="#">@东软社区</a>
+						</p>
+						<p class="sx">
+							🐧 读者QQ群 <br> <a href="#">123456789</a> <a href="#">987654321</a>
+						</p>
+						<p class="wx">
+							✍️ 微信公众号 东软教育 <br> <img alt="#"
+								src="./static/img/homepage/erwei1.png">
+						</p>
+						<p class="wx">
+							✍️ 微信公众号 东软访谈 <br> <img alt="#"
+								src="./static/img/homepage/erwei2.png">
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- ********************************************************************************** -->
+	<!-- bottom -->
+	<div class="bottom">
+		<div class="footer">
+			<p>2018 © 成都东软学院东软社区 · All Rights Reserved</p>
+			<!-- 第一个ul 联系方式 -->
+			<ul class="site-footbav">
+				<li><a href="#">成为译者</a></li>
+				<li><a href="#">成为作者</a></li>
+				<li><a href="#">加入我们</a></li>
+				<li><a href="#">联系我们</a></li>
+			</ul>
+			<!-- 第二个ul 备案 -->
+			<ul class="site-certifies">
+				<li>京ICP备11039595a号</li>
+				<li>京公网安备11010502011375a</li>
+				<li>新出发京零字第东110150a号</li>
+				<li>统一社会信用代码 91110101777086608Fa</li>
+			</ul>
+		</div>
+	</div>
+	<!-- ********************************************************************************** -->
+</body>
+</html>

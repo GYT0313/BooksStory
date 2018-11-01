@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>bookDetail</title>
+<link href="./static/css/frame.css" type="text/css" rel="stylesheet">
+<link href="./static/css/top_login.css" type="text/css" rel="stylesheet">
+<link href="./static/css/bookDetail.css" type="text/css"
+	rel="stylesheet">
+<link href="./static/css/bottom.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+	<!-- ********************************************************************************** -->
+	<!-- top -->
+	<div class="top">
+		<!-- loog -->
+		<div class="top-logo">
+			<a href="http://localhost:8080/nsu_project/homepage_login.html"><img alt="logo" src="./static/img/homepage/logo.jpg"> </a>
+			<a href="http://localhost:8080/nsu_project/homepage_login.html">东软社区</a>
+		</div>
+		<!-- 第一个ul -->
+		<ul class="top-nav-primary">
+			<li><a href="#">图书</a></li>
+			<li><a href="#">文章</a></li>
+			<li><a href="#">首页</a></li>
+			<!-- 搜索框 -->
+			<li class="top-serarch">
+				<form action="#" method="get">
+					<input type="search" name="q" placeholder="精勤博学    学以致用 "
+						class="key">
+					<button class="go btn btn-link">
+						<img alt="search" src="./static/img/homepage/search-icon.jpg">
+					</button>
+				</form>
+			</li>
+		</ul>
+		<!-- 第二个ul 注册登录 -->
+		<ul class="top-nav-secondary">
+			<li class="top-li1"><a href="#">提醒</a></li>
+			<li class="top-li2"><a
+				href="http://localhost:8080/nsu_project/shoppingCart.html">购书袋</a></li>
+			<li class="top-li3"><a href="#"><img alt="#"
+					src="./static/img/homepage/touxiang.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cnu</a>
+			</li>
+			<li class="top-li4"><a href="#">写作</a></li>
+			<li class="top-li5"><a
+				href="http://localhost:8080/nsu_project/homepage.html">注销</a></li>
+		</ul>
+	</div>
+
+	<!-- ********************************************************************************** -->
+	<!-- middle -->
+	<div class="middle">
+		<div id="big">
+			<div id="imgDiv">
+				<div class="book-bian">
+					<img id="bookLogo" src="./static/img/bookDetail/book.jpg" />
+				</div>
+				<div id="tuiDiv">
+					<a class="bookTui" href="#"> <span class="number">96</span><br />
+						<span class="text">推荐</span>
+					</a>
+				</div>
+
+				<div class="buBook"></div>
+
+				<div id="tuiDiv">
+					<a class="bookTui" href="#"> <span class="number">☆</span><br />
+						<span class="text">收藏</span>
+					</a>
+				</div>
+
+				<div class="buBook"></div>
+
+
+				<div id="tuiDiv2">
+					<a class="bookTui" href="#"> <span class="number2">99.9K</span><br />
+						<span class="text2">阅读</span>
+					</a>
+				</div>
+			</div>
+
+			<div class="buchong"></div>
+
+
+			<div id="detailDiv">
+				<div id="title">
+					<h2 id="bookName">算法图解</h2>
+				</div>
+
+				<div class="author">
+					<span>Aditya Bhargava (作者)</span> <span id="fanyi">袁国忠 (译者)
+						<span>
+				</div>
+
+				<div id="book-lable">
+					<span class="lable-sale">上市销售</span> <span class="tag"> <a
+						href="#">人工智能</a> <a href="#">机器学习</a> <a href="#">算法</a> <a
+						href="#">计算机科学</a> <a href="#">最受欢迎</a>
+					</span>
+
+				</div>
+
+
+				<div class="introduce">
+					你一定能看懂的算法基础书<br /> 代码示例基于Python<br /> 400多个示意图，生动介绍算法执行过程<br />
+					展示不同算法在性能方面的优缺点<br /> 教会你用常见算法解决每天面临的实际编程问题<br />
+
+				</div>
+
+
+				<div class="content-main">
+					【主要内容】<br />
+					本书示例丰富，图文并茂，以简明易懂的方式阐释了算法，旨在帮助程序员在日常项目中更好地利用算法为软件开发助力。前三章介绍算法基础，包括二分查找、大O
+					表示法、两种基本的数据结构以及递归等。余下的篇幅将主要介绍应用广泛的算法。
+				</div>
+
+				<div id="share-logo"></div>
+
+
+			</div>
+
+			<div class="buchong"></div>
+
+			<div id="priceDiv">
+				<div id="dian-price">
+					<div class="dian">
+						&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp电子书<span class="book-price">24.99元</span>
+					</div>
+
+					<div id="format">
+						&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp格式<span class="book-format">mobi</span><span
+							class="book-format">pdf</span>
+					</div>
+
+					<a href="#" class="buy"><input id="check-dian" type="button"
+						value="购买电子书" /></a>
+
+					<div id="line"></div>
+
+
+					<div class="dian">
+						&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp纸质书<span class="book-price">52.68元</span>
+					</div>
+
+					<a href="#" class="buy"><input id="check-dian" type="button"
+						value="购买纸质书" /></a> <a href="#" class="buy"><input id="no-book"
+						type="button" value="暂无样书" /></a>
+
+				</div>
+
+				<div id="paper-price"></div>
+
+
+
+
+
+
+			</div>
+
+			<div id="tese">
+				<div id="tese-content">
+					<h3 id="book-size">本书特色</h3>
+					<div></div>
+
+					<p>【技术大咖推荐】</p>
+					<p>本书完成了一项不可能完成的任务：让数学变得有趣而易懂！ ——Sander Rossel，COAS Software
+						Systems</p>
+					<p>你渴望像看喜欢的小说一样学习算法吗？如果是，本书正是你梦寐以求的！ ——Sankar Ramanathan，IBM
+						Analytics</p>
+					<p>当今世界，使用算法进行优化已渗透到了生活的方方面面。如果你正寻找优秀的算法入门书，本书就是你的首选。</p>
+					<p>——Amit Lamba，Tech Overture</p>
+					<p>算法学习起来一点都不乏味！在我和学生们看来，本书既活泼有趣又富有洞见。</p>
+					<p>——Christopher Haupt，Mobirobo</p>
+				</div>
+
+				<div id="tese-buchong"></div>
+
+				<div id="tese-prize">
+					<div id="table-prize">
+						<div class="table-content">
+							<a href="#">注册刮刮卡</a>
+						</div>
+						<div class="table-content">
+							<a href="#">提交</a>
+						</div>
+						<div class="table-content" id="table-content-spe">
+							<a href="#">随书下载&nbsp①</a>
+						</div>
+					</div>
+
+
+				</div>
+
+			</div>
+
+
+			<div id="mulu">
+				<div id="mulu-content">
+					<h3 id="book-size">目录</h3>
+					<div id="line"></div>
+					<div class="content-detail">版权声明</div>
+					<div class="content-detail">
+						<a href="#">阅读</a>
+					</div>
+
+					<div class="content-detail2">献词</div>
+					<div class="content-detail2">
+						<a href="#">阅读</a>
+					</div>
+
+					<div class="content-detail">前言</div>
+					<div class="content-detail">
+						<a href="#">阅读</a>
+					</div>
+
+					<div class="content-detail2">致谢</div>
+					<div class="content-detail2">
+						<a href="#">阅读</a>
+					</div>
+
+					<div class="content-detail">关于本书</div>
+					<div class="content-detail">
+						<a href="#">阅读</a>
+					</div>
+
+					<div class="content-detail2">第1章&nbsp算法简介</div>
+					<div class="content-detail2">
+						<a href="#">阅读</a>
+					</div>
+
+					<div class="content-detail">第2章&nbsp选择排序</div>
+					<div class="content-detail">
+						<a href="#">阅读</a>
+					</div>
+
+					<div class="content-detail2">第3章&nbsp递归</div>
+					<div class="content-detail2">
+						<a href="#">阅读</a>
+					</div>
+
+					<div class="content-detail">第4章&nbsp快速排序</div>
+					<div class="content-detail">
+						<a href="#">阅读</a>
+					</div>
+
+					<div class="content-detail2">第5章&nbsp散列表</div>
+					<div class="content-detail2">
+						<a href="#">阅读</a>
+					</div>
+
+					<div class="content-detail">第6章&nbsp广度优先搜索</div>
+					<div class="content-detail">
+						<a href="#">阅读</a>
+					</div>
+
+					<div class="content-detail2">第7章&nbsp狄克斯特拉算法</div>
+					<div class="content-detail2">
+						<a href="#">阅读</a>
+					</div>
+
+					<div class="content-detail">第8章&nbsp贪婪算法</div>
+					<div class="content-detail">
+						<a href="#">阅读</a>
+					</div>
+
+					<div class="content-detail2">练习答案</div>
+					<div class="content-detail2">
+						<a href="#">阅读</a>
+					</div>
+
+
+
+
+				</div>
+
+
+				<div id="mulu-buchong"></div>
+
+				<div id="public-info">
+					<h3>出版信息</h3>
+					<div id="public-buchong"></div>
+
+					<p>
+						书&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp名<span
+							class="public-detail">算法图解</span>
+					</p>
+					<p>
+						执行编辑<span class="public-detail"><a href="#">朱巍</a></span>
+					</p>
+					<p>
+						出版日期<span class="public-detail">2017-03-13</span>
+					</p>
+					<p>
+						书&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp号<span
+							class="public-detail">978-7-115-44763-0</span>
+					</p>
+					<p>
+						定&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp价<span
+							class="public-detail">49.00 元</span>
+					</p>
+					<p>
+						页&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp数<span
+							class="public-detail">196</span>
+					</p>
+					<p>
+						印刷方式<span class="public-detail">黑白</span>
+					</p>
+					<p>
+						开&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp本<span
+							class="public-detail">16开</span>
+					</p>
+					<p>
+						出版状态<span class="public-detail">上市销售</span>
+					</p>
+					<p>
+						原书名&nbsp&nbsp&nbsp&nbsp<span class="public-detail"><a
+							href="#">Grokking Algorithms</a></span>
+					</p>
+					<p>
+						原书号&nbsp&nbsp&nbsp&nbsp<span class="public-detail"><a
+							href="#">978-1617292231</a></span>
+					</p>
+					<br />
+					<h3>所属分类</h3>
+					<div id="public-buchong"></div>
+					<a href="#">计算机</a> > <a href="#">算法</a>
+
+
+
+
+				</div>
+
+
+			</div>
+
+
+			<div id="like">
+				<h3>大家也喜欢</h3>
+				<div id="like-line"></div>
+				<div class="books">
+					<div class="border-photo">
+						<img src="./static/img/bookDetail/1.jpg">
+					</div>
+					<div class="book-name">
+						<a href="">枕边算法书</a>
+					</div>
+					<div class="book-author">林栢濬</div>
+					<div class="book-author">崔盛一 译</div>
+				</div>
+
+				<div class="books-buchong"></div>
+
+				<div class="books">
+					<div class="border-photo">
+						<img src="./static/img/bookDetail/2.png">
+					</div>
+					<div class="book-name">
+						<a href="#">算法新解</a>
+					</div>
+					<div class="book-author">刘新宇</div>
+
+
+				</div>
+				<div class="books-buchong"></div>
+
+
+				<div class="books">
+					<div class="border-photo">
+						<img src="./static/img/bookDetail/3.jpg">
+					</div>
+					<div class="book-name">
+						<a href="#">算法程序挑战</a>
+					</div>
+					<div class="book-author">渡部有隆</div>
+					<div class="book-author">支鹏浩 译</div>
+
+				</div>
+				<div class="books-buchong"></div>
+
+
+
+				<div class="books">
+					<div class="border-photo">
+						<img src="./static/img/bookDetail/4.jpg">
+					</div>
+					<div class="book-name">
+						<a href="">垃圾回收的算法与实现</a>
+					</div>
+					<div class="book-author">中村成洋</div>
+					<div class="book-author">丁灵 译</div>
+
+				</div>
+				<div class="books-buchong"></div>
+
+
+				<div class="books">
+					<div class="border-photo">
+						<img src="./static/img/bookDetail/5.jpg">
+					</div>
+					<div class="book-name">
+						<a href="">算法(第四版)</a>
+					</div>
+					<div class="book-author">Robert Sedgewick</div>
+
+
+				</div>
+
+
+			</div>
+
+
+			<div id="about">
+				<h3>相关文章</h3>
+				<div id="about-line"></div>
+
+				<div class="about-wen">
+					<a class="wen-name" href="#">《算法图解》作者Adit Bhargava访谈问题征集（图灵访谈）</a>
+					<p>访谈嘉宾:（Adit自画像） Adit Bhargava， 软件工程师，兼具计算机科学和美术方面的教育背景。</p>
+					<p>
+						<a class="tuijian-author" href="#">刘敏ituring</a>&nbsp&nbsp&nbsp&nbsp发表于
+						2017-03-21
+					</p>
+
+				</div>
+
+				<div class="about-tuijian">
+					<br /> <span class="tuijian-num"><a href="#">8</a></span> <span
+						class="tuijian-wen">推荐</span>
+
+				</div>
+
+
+				<div class="about-wen">
+					<a class="wen-name" href="#">[英文版]Adit Bhargava：Illustrations
+						break the spell on Algorithm（图灵访谈）</a>
+					<p>访谈嘉宾： （Adit自画像） Adit Bhargava，
+						软件工程师，兼具计算机科学和美术方面的教育背景，在adit.io撰写编程方面的</p>
+					<p>
+						<a class="tuijian-author" href="#">刘敏ituring</a>&nbsp&nbsp&nbsp&nbsp发表于
+						2017-03-30
+					</p>
+
+				</div>
+
+				<div class="about-tuijian">
+					<br /> <span class="tuijian-num"><a href="#">3</a></span> <span
+						class="tuijian-wen">推荐</span>
+
+				</div>
+
+
+
+
+
+			</div>
+
+			<div class="comment">
+				<div class="comment-big">
+					<textarea placeholder="我来写评论..."></textarea>
+					<br />
+					<button class="comment-submit">评论</button>
+					<div class="comment-line"></div>
+
+					<div class="comment-people">
+						<div class="comment-img">
+							<img src="./static/img/bookDetail/head.jpg">
+						</div>
+
+
+						<div class="comment-words">
+							<div>看过原版，算是一本非常浅显易于入门的书，坐等印刷版上市。</div>
+
+							<div>
+								<a href="#">雨帆</a> 发表于 2017-02-18 19:42:13
+							</div>
+
+						</div>
+
+						<div class="huifu">
+							<div>
+								<a href="#">回复(6)</a>&nbsp&nbsp&nbsp<a href="#">推荐</a>
+							</div>
+						</div>
+
+
+						<div class="comment-people">
+							<div class="comment-img">
+								<img src="./static/img/bookDetail/head2.png">
+							</div>
+
+
+							<div class="comment-words">
+								<div>书买了还没看呢，前言里写有随书源码官网下载的，希望编辑更新！</div>
+
+								<div>
+									<a href="#">TOOR</a> 发表于 2017-11-07 08:38:15
+								</div>
+
+							</div>
+
+							<div class="huifu">
+								<div>
+									<a href="#">回复(2)</a>&nbsp&nbsp&nbsp<a href="#">推荐</a>
+								</div>
+							</div>
+
+
+
+							<div class="comment-people">
+								<div class="comment-img">
+									<img src="./static/img/bookDetail/head3.png">
+								</div>
+
+
+								<div class="comment-words">
+									<div>很好的入门书，炒鸡喜欢●ｖ●</div>
+
+									<div>
+										<a href="#">欧阳东方</a> 发表于 2017-03-23 10:09:02
+									</div>
+
+								</div>
+
+								<div class="huifu">
+									<div>
+										<a href="#">回复(1)</a>&nbsp&nbsp&nbsp<a href="#">推荐</a>
+									</div>
+								</div>
+
+
+
+
+								<div class="comment-people">
+									<div class="comment-img">
+										<img src="./static/img/bookDetail/head4.png">
+									</div>
+
+
+									<div class="comment-words">
+										<div>勘误中： 90 第7行代码“if not person in searched:"改为"if
+											person not in searched:" 这个并不是错误。</div>
+										<div>
+											<a href="#">欧阳东方</a> 发表于 2017-03-23 10:09:02
+										</div>
+
+									</div>
+
+									<div class="huifu">
+										<div>
+											<a href="#">回复(1)</a>&nbsp&nbsp&nbsp<a href="#">推荐</a>
+										</div>
+									</div>
+
+
+
+									<div class="comment-people">
+										<div class="comment-img">
+											<img src="./static/img/bookDetail/head5.jpg">
+										</div>
+
+
+										<div class="comment-words">
+											<div>收藏好久啦，竟然碰到了weekly；不错</div>
+											<div>
+												<a href="#">哥本哈根</a>发表于 2018-05-10 09:03:2
+											</div>
+
+										</div>
+
+										<div class="huifu">
+											<div>
+												<a href="#">回复(0)</a>&nbsp&nbsp&nbsp<a href="#">推荐</a>
+											</div>
+										</div>
+
+
+
+
+
+
+
+									</div>
+								</div>
+
+
+							</div>
+
+
+						</div>
+
+
+
+
+					</div>
+
+
+
+
+
+
+				</div>
+			</div>
+		</div>
+
+		<!-- ********************************************************************************** -->
+		<!-- bottom -->
+		<div class="bottom">
+			<div class="footer">
+				<p>2018 © 成都东软学院东软社区 · All Rights Reserved</p>
+				<!-- 第一个ul 联系方式 -->
+				<ul class="site-footbav">
+					<li><a href="#">成为译者</a></li>
+					<li><a href="#">成为作者</a></li>
+					<li><a href="#">加入我们</a></li>
+					<li><a href="#">联系我们</a></li>
+				</ul>
+				<!-- 第二个ul 备案 -->
+				<ul class="site-certifies">
+					<li>京ICP备11039595a号</li>
+					<li>京公网安备11010502011375a</li>
+					<li>新出发京零字第东110150a号</li>
+					<li>统一社会信用代码 91110101777086608Fa</li>
+				</ul>
+			</div>
+		</div>
+		<!-- ********************************************************************************** -->
+</body>
+</html>
